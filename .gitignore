@@ -1,0 +1,27 @@
+# Laravel default
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+.env
+.env.*.backup
+Homestead.yaml
+Homestead.json
+
+# Laravel log and cache files
+/storage/logs
+/storage/framework/cache/data
+/storage/framework/sessions
+/storage/framework/views
+
+# IDE/Editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
